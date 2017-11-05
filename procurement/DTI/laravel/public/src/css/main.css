@@ -1,0 +1,105 @@
+.new-post{
+	padding: 16px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.new-post header,
+.post header{
+	margin-bottom: 20px;
+}
+
+.posts .post{
+	padding-left:10px;
+	border-left:3px solid #a21b24;
+	margin-bottom:30px;
+}
+
+.posts .post .info{
+	color:#aaa;
+	font-style:italic;
+}
+.error,
+success{
+	text-align: center;
+}
+.error{
+	border: 1px solid red;
+	border-color: #f9b5af;
+	color:red;
+}
+
+.error ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.success{
+	border:1px solid green;`
+	background-color: #d1f9da;
+	color:green;
+}
+
+.border{
+	border:0px solid black;
+	 background-color: green;
+     box-shadow: 0px 0px 5px 1px gray;
+
+     width: 40%;
+     height: 400px;
+     background-color: white;
+     font-family: railway;
+
+}
+.row{
+	border:0px solid black;
+	 background-color: green;
+     box-shadow: 0px 0px 5px 1px gray;
+
+     width: 50%;
+     height: 550px;
+     background-color: white;
+     font-family: railway;
+
+}
+.form-control {
+    background-color: white;
+    border: 1;
+    color: black;
+    padding: 15px 10%;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 1px 0px;
+    cursor: pointer;
+}
+.submitbutton{
+    background-color:#0066cc;
+    border: none;
+    color: white;
+    padding: 15px 30%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+     font-family: railway;
+    margin: 4px 0px;
+    cursor: pointer;
+}
+.loginbutton {
+    background-color:#0066cc;
+    border: none;
+    color: white;
+    padding: 15px 35%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+     font-family: railway;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#col-md-6 label {
+  text-align: center;
+  display: block;
+}
