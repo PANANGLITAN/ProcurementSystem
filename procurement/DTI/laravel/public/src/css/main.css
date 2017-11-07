@@ -18,8 +18,7 @@
 	color:#aaa;
 	font-style:italic;
 }
-.error,
-success{
+.error, success{
 	text-align: center;
 }
 .error{
@@ -44,10 +43,11 @@ success{
 	 background-color: green;
      box-shadow: 0px 0px 5px 1px gray;
 
-     width: 40%;
-     height: 400px;
+     width: 35%;
+     height: 450px;
      background-color: white;
-     font-family: railway;
+     font-family: raleway;
+
 
 }
 .row{
@@ -55,51 +55,198 @@ success{
 	 background-color: green;
      box-shadow: 0px 0px 5px 1px gray;
 
-     width: 50%;
+     width: 40%;
      height: 550px;
      background-color: white;
-     font-family: railway;
+     font-family: raleway;
+
 
 }
 .form-control {
     background-color: white;
     border: 1;
     color: black;
-    padding: 15px 10%;
+    padding: 10px 13%;
     text-align: left;
     text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 1px 0px;
+    
+    font-size: 16px;
     cursor: pointer;
 }
 .submitbutton{
     background-color:#0066cc;
     border: none;
     color: white;
-    padding: 15px 30%;
+    padding: 15px 26%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-     font-family: railway;
+     font-family: raleway;
     margin: 4px 0px;
     cursor: pointer;
+    margin-left:10px "
 }
 .loginbutton {
     background-color:#0066cc;
     border: none;
     color: white;
-    padding: 15px 35%;
+    padding: 15px 33.5%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
-     font-family: railway;
+    font-size:- 20px;
+   
     margin: 4px 2px;
-    cursor: pointer;
+    cursor: pointer;  font-family: raleway;
 }
+
 #col-md-6 label {
   text-align: center;
   display: block;
 }
+div.container {
+    width: 100%;
+    border: 0px solid gray;
+      font-family: raleway;
+      margin-top: -15px;
+     margin-left: -4px;
+     margin-right: -50px;
+    }
+
+header{
+    margin-top: 0px;
+    padding: 0em;
+    color: black;
+    background-color: white;
+    clear: left;
+    font-family: raleway;
+     border: 0px solid gray;
+}
+footer {
+    padding: 1em;
+    color: black;
+    background-color: #3173AD;
+    clear: left;
+    text-align: center;
+    font-family: raleway;
+    border: 0px solid gray;
+}
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+    background-color: #3173AD  ;
+    width: 160px;
+    height: 575px;
+     border: 0px solid gray;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 0px solid gray;
+    padding: 0em;
+    overflow: hidden;
+     border: 0px solid gray;
+     background-color: ;
+}
+.button {
+    background-color: white;
+    border: none;   
+    color: white;   
+    padding: 0px 0px;        
+   display: inline-block;   
+    font-size: 14px; 
+    margin: 2px 0px;   
+transition-duration: 0.4s;
+  
+    cursor: pointer;
+}
+.button1 {border-radius: 0px;}
+.button2 {border-radius: 0px;}
+.button3 {border-radius: 0px;}
+.button4 {border-radius: 0px;}
+.button5{border-radius: 0px;}
+
+.button1 {
+   
+    background-color:#182286;
+     color: white;
+    border: 1px solid white;
+    }
+.button1:hover {    
+background-color: #3173AD ;   
+    color: white;
+    border: 1px solid white;
+}
+
+.button2 {
+   
+    background-color: #182286;
+     color: white;
+   border: 1px solid white;
+    }
+.button2:hover {    
+background-color: #3173AD ;   
+    color: white;
+    border: 1px solid white;
+}
+.button3 {
+   
+    background-color: #182286;
+     color: white;
+   border: 1px solid white;
+    }
+.button3:hover {    
+background-color: #3173AD ;   
+    color: white;
+    border: 1px solid white;
+}
+.button4 {
+   
+    background-color: #182286;
+     color: white;
+   border: 1px solid white;
+    }
+.button4:hover {    
+background-color: #3173AD ;   
+    color: white;
+    border: 1px solid white;
+}
+
+.button5 {
+   
+    background-color: maroon;
+     color: white;
+   border: 1px solid white;
+       
+    }
+.button5:hover {    
+background-color: white;   
+    color: red;
+    border: 1px solid red;
+}
+
+
+#notification_count {
+padding: 2px 5px 3px 7px;
+background: #cc0000;
+color: #ffffff;
+font-weight: bold;
+margin-left: 145px;
+border-radius: 9px;
+position: absolute;
+margin-top: 2px;
+font-size: 13px;
+}
+

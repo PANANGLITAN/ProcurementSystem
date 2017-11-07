@@ -13,9 +13,4 @@ class User extends Model implements Authenticatable
      {
      	return $this->hasMany('App\Post');
      }
-
-     public function postinfo()
-     {
-     	return $this->hasMany('App\Procurement');
-     }
 }

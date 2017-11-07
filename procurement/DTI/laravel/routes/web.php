@@ -32,11 +32,6 @@
 	    return view('welcome');
 	})->name('login');
 
-	Route::get('/time', function () {
-	    $time = DB::select ('SELECT CURRENT_DATE');
-	    return view('show', array('data' => $data));
-	})->name('time()');
-
 	Route::get('/dashboard',[
 		'uses' => 'PostController@getDashboard',
 		'as' => 'dashboard',
@@ -46,11 +41,6 @@
 	Route::post('/createpost',[
 		'uses' => 'PostController@postCreatePost',
 		'as' => 'post.create'
-		]);
-
-	Route::post('/createprocurement',[
-		'uses' => 'PostController@postCreateProcurement',
-		'as' => 'post.procurements'
 		]);
 
 	Route::get('/delete-post/{post_id}',[

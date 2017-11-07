@@ -6,8 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Procurement extends Model
 {
-    public function user()
+	public $timestamps = false;
+    public function posts()
     {
-    	return $this->belongsTo('App\Procurement');
+    	return $this->hasMany('App\Post');
     }
 }
