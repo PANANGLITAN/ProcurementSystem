@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="#CCCCC">
+<h2>Add Procurement</h2>
+
+<form action="{{ route('post.save') }}" method ="post">
+
+<div class="row">
+
+    <table border="0">
+    <div class="col">
+
+        <div class="form-group row">
+          
+                <label for="example-date-input" class="col-2 col-form-label">Date</label>
+           
+
+            <td width="500" >
+                <div class="col-08">
+                    <input class="form-control" type="date" value="00-00-00" id="date" name="date" style="width: 400px">
+                </div>
+           </td>
+        </div>
+    </table>
+    </div>
+
+<br/>
+    <div class="col">
+    <table>
+        <div class="form-group row">
+            
+                <label for="example-date-input" class="col-2 col-form-label">PR No.</label>
+           
+            <td>
+                <div class="col-08">
+                <input class="form-control" type="date" value="00-00-00" id="prno" name="prno" style="width: 400px">
+                </div>
+            </td>
+        </div>
+    </table> 
+    </div>
+
+</div>
+
+<br/>
+<div class="form-group">
+    <table>
+        
+            <label for="particulars">Particulars:</label>
+      
+        <td>
+            <textarea class="form-control" id="particulars" rows="3" name="particulars" placeholder="Enter Particular" style="width: 400px"></textarea>
+        </td>
+    </table>
+</div>
+
+<br/>
+<div class="form-group row">
+    <table>
+     
+            <label for="daterequiredneeded" class="col-2">Date Required</label>
+       
+        <td>
+            <div class="col-10">
+                <input class="form-control" type="date" value="00-00-00" id="daterequiredneeded" name="daterequiredneeded" style="width: 400px">
+            </div> 
+        </td>
+    </table> 
+</div>
+<br/>
+
+<div class="form-group">
+    <table>
+        
+            <label for="total">Total</label>
+       
+        <td>
+            <input type="text" class="form-control" id="total" placeholder="Total" name="total" style="width: 400px">
+        </td>
+    </table>
+</div>
+<br/>
+
+<div class="form-group">
+    <table>
+
+            <label for="requestingdivision">Requesting Division</label>
+       
+        <td>
+            <input type="text" class="form-control" id="requestingdivision" placeholder="Requesting Division" name="requestingdivision" style="width: 400px">
+        </td>
+    </table>
+</div>
+
+<br/>
+<div class="form-group">
+    <table>
+       
+            <label for="pono">PO No.</label>
+        </td>
+        <td>
+             <input type="text" class="form-control" id="pono" placeholder="cannot be null" name="pono" style="width: 400px">
+        </td>
+    </table>
+</div>
+<br/>
+
+<div class="form-group">
+    <table>
+        
+            <label for="total">Total</label>
+       
+        <td>
+            <input type="text" class="form-control" id="total" placeholder="Total" name="total" style="width: 400px">
+        </td>
+    </table>
+</div>
+<br/>
+<div class="form-group row">
+    <table>
+       
+            <label for="noticetoproceed" class="col-2 col-form-label">Notice to Proceed</label>
+     
+        <td>
+            <div class="col-08">
+                <input class="form-control" type="date" value="00-00-00" id="noticetoproceed" name="noticetoproceed" style="width: 400px">
+            </div>
+        </td>
+    </table>
+</div>
+<br/>
+<div class="form-group row">
+    <table>
+                    <label for="deliverycompletion" class="col-2 col-form-label">Delivery Completion</label>
+      
+        <td>
+            <div class="col-08">
+                <input class="form-control" type="date" value="00-00-00" id="deliverycompletion" name="deliverycompletion" style="width: 400px">
+            </div>
+        </td>
+    </table>
+</div>
+<br/>
+<div class="form-group row">
+    <table>
+       
+            <label for="acceptanceturnover" class="col-2 col-form-label">Acceptance/Turnover</label>
+        
+        <td>
+            <div class="col-08">
+                <input class="form-control" type="date" value="00-00-00" id="acceptanceturnover" name="acceptanceturnover" style="width: 400px">
+            </div>
+        </td>
+    </table>
+</div>
+
+<br/>
+<div class="form-group">
+    <table>
+       
+            <label for="cino">CI No.</label>
+        
+        <td>
+            <input type="text" class="form-control" id="cino" placeholder="Ci No." name="cino" style="width: 400px">
+        </td>
+    </table>
+</div>
+
+<br/>
+<div class="form-group row">
+    <table>
+       
+            <label for="accounting" class="col-2 col-form-label">Accounting</label>
+       
+        <td>
+            <div class="col-08">
+                <input class="form-control" type="date" value="00-00-00" id="accounting" name="accounting" style="width: 400px">
+            </div>
+        </td>
+    </table>
+</div>
+
+<br/>
+<div class="form-group row">
+    <table>
+     
+            <label for="cashier" class="col-2 col-form-label">Cashier</label>
+        
+        <td>
+            <div class="col-08">
+                <input class="form-control" type="date" value="00-00-00" id="cashier" name="cashier" style="width: 400px">
+            </div>
+        </td>
+    </table>
+</div>
+
+<br/>
+<div class="form-group">
+    <table>
+      
+            <label for="numberofdayspodelivery">Number of days(PO-Delivery)</label>
+        
+        <td>
+            <input type="password" class="form-control" id="numberofdayspodelivery" placeholder="Po-Delivery" name="numberofdayspodelivery" style="width: 400px">
+        </td>
+    </table>
+</div>
+
+<br/>
+<div class="form-group">
+    <table>
+       
+            <label for="numberofdaysdeliverycashier">Number of days(Delivery-Cashier)</label>
+      
+        <td>
+            <input type="password" class="form-control" id="numberofdaysdeliverycashier" placeholder="Delivery-Cashier" name="numberofdaysdeliverycashier" style="width: 400px">
+        </td>
+    </table>
+</div>
+
+<br/>
+
+  <button type="submit" class="btn btn-primary" style="margin-left:350px " >Submit</button>
+  <input type="hidden" value="{{Session::token()}}" name="_token">
+</form>
+
+ <p class="float-right" style="margin-left:300px " ><a href="#" style="font-size: 25px" >Back to top</a></p>
+</body>
+</html>
